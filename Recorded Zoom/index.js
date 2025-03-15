@@ -11,7 +11,7 @@ let recorder; // store undefined
 let chunks = [];  // media data  is stored in chunks
 
 let constraints={
-    audio:false,
+    audio:true,
     video:true,
 }
 // // navigator is a gloabl obj where this gives info abouot browser
